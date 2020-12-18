@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PIZZA BEST </title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--aici este un comentariu-->
+	<link rel="shortcut icon" type="image/x-icon" href="images/pizza.png" />
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+	<script src="https://use.fontawesome.com/767155eaee.js"></script>
+	<script src="js/scripts.js"></script>
+</head>
+
+<body onload="getYear()">
+	
+<div class="header">
+	<div class="logo">
+		<img src="images/Pizza1.png" alt="Logo" />
+	</div>
+	<div class="nav" id="myNav">
+	  <a href="#" onclick="hideMenu()">PizzaBest</a>
+	  <a href="#about" onclick="hideMenu()">Istoria Pizzei</a>
+	  <a href="#products" onclick="hideMenu()">Recete</a>
+	  <a href="#contacts" onclick="hideMenu()">Contacte</a>
+	 
+	  <a href="javascript:void(0);" class="icon" onclick="responsiveMenu()"><i class="fa fa-bars"></i></a>
+	</div>
+</div>
+<!--slider-->
+
+<div class="slideshow-container">
+  <div class="slide anim">
+	<div class="numbertext">1 / 5</div>
+	<img src="images/pizaa9.jpg">
+    <div class="text">Te așteptăm oricând </div>
+  </div>
+  <div class="slide anim">
+    <div class="numbertext">2 / 5</div>
+    <img  src="images/pizza5.jpg">
+    <div class="text"> La o pizză delicoasă...</div>
+  </div>
+  <div class="slide anim">
+    <div class="numbertext">3 / 5</div>
+    <img src="images/pizza2.jpg">
+	<div class="text">Până şi Michelangelo a comandat pizza.</div>
+  </div>
+  <div class="slide anim">
+    <div class="numbertext">4 / 5</div>
+    <img src="images/Pizza6.jpg">
+	<div class="text">Dacă nu reuşeşti de prima dată, comandă pizza.</div>
+  </div>
+  <div class="slide anim">
+    <div class="numbertext">5 / 5</div>
+	<div class="orar">
+		<h2>ORAR</h2>
+		<h3>Luni - Vineri:</h3>
+		<h3>8:00-20:00</h3>
+		<h3>Sâmbătă - Duminică:</h3>
+		<h3>10:00-22:00</h3>
+	</div>
+    <div class="text">PIZZA BEST</div>
+  </div>
+</div>
+
+<!--despre produse-->
+<hr id="about" />
+<br>
+<div class="about">
+	<h1>Mâncarea bună aduce bună dispoziție.</h1>
+	<i class="fas fa-pizza-slice"></i>
+	<div class="main-paragraph text-paragraph">
+		<p>Anul 997 e.n. este cel în care s-a redactat, la Gaeta, pe coasta vestică în partea sudică a Italiei, un document în limba latină conținând cea mai veche menționare a cuvântului pizza (documentul conținea informația că un fermier trebuia să ducă episcopului orașului un număr de „pizze“ de Crăciun și de Paști). Lingviștii au tras concluzia că termenul este de origine greacă, ajuns în Italia pe filieră bizantină. În pofida unei păreri generale potrivit căreia pizza este de origine italiană, s-a dovedit că variante ale acestui produs alimentar au existat în antichitate și în Egipt, Babilon și Imperiul Persan. Este cunoscut că grecii din antichitate mâncau o pâine rotundă și plată pe care puneau diferite ingrediente și condimente, iar supoziția că și alte populații preparau alimente asemănătoare este pertinentă.</p>
+		<p>Principalul component al pizzei este blatul, preparat prin coacere din aluat de pâine. Ingredientele pentru aluat sunt cele cunoscute: fâină de grâu, drojdie, apă, sare (și ulei). Întâi se prepară aluatul, care se lasă la dospit, se mai frâmîntă și se întinde subțire într-o tavă, se lasă la crescut, apoi se adaugă ingredientele (întâi un strat subțire de suc de roșii - sau chiar felii subțiri de roșii ori felii uscate -, pe urmă celelalte ingrediente) și se dă la cuptor, încins viguros mai devreme.</p>
+	</div>
+</div>
+<!--produsele-->
+<hr  id="products" />
+<br>
+<div class="products">
+    <div class="description_prod">
+        <h1>Produsele noastre</h1>
+        <p>Cele mai solicitate produse de către clienții noștri...</p>
+    </div>
+    <div class="cards_prod">
+    <div class="card">
+	<a href="pages/Capricciosa.html">
+        <img src="images/capricciosa.jpg" alt="Capricciosa" class="photo_prod" />
+        <h3>Capricciosa</h3>
+      
+	</a>
+    </div>
+    <div class="card">
+	<a href="pages/Margherita.html">
+        <img src="images/margherita.jpg" alt="Margherita" class="photo_prod" />
+        <h3>Margherita</h3>
+        
+	</a>
+    </div>
+    <div class="card">
+	<a href="pages/Padrino.html">
+        <img src="images/padrino.png" alt="Padrino" class="photo_prod" />
+        <h3>Padrino</h3>
+       
+    </a>
+	</div>
+    </div>
+</div>  
+<!--contactele-->
+<hr id="contacts" />
+<br>
+<div class="contacts">
+	<h2>Cum ne găsiți?</h2>
+	<div class="coord">
+		<div class="blok_coord">
+		<div>
+			<span class="ico1"><i class="fa fa-map-marker"></i></span>
+		</div>
+		<div class="txt">
+			<p> Ungheni,str. Nationala 17</p>
+		</div>
+		</div>
+		<div class="blok_coord">
+		<div>
+			<span class="ico"><i class="fa fa-at"></i></span>
+		</div>
+		<div class="txt">	
+			<p> Pizza24@gmail.com</p>
+		</div>
+		</div>
+		<div class="blok_coord">
+		<div>
+			<span class="ico"><i class="fa fa-phone"></i></span>
+		</div>
+		<div class="txt">
+			<p>079865854</p>
+		</div>
+		</div>
+	</div>
+	<div class="map">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.4227660817837!2d27.79941331505786!3d47.20830962340061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40cb00239a594823%3A0x78a19390a5fec6c7!2sStrada%20Nationala%2017%2C%20Ungheni%2C%20Moldova!5e0!3m2!1sen!2sus!4v1598279663762!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+	</div>
+</div>
+<!--subsolul paginii-->
+<div class="footer">
+	<h3><span class="copy">&copy;</span> Copy <span id="year"></span></h3>
+	<p>author@mail.com, 0776684729</p>
+</div>
+
+<script src="js/script_slider.js"></script>
+</body>
+</html>
